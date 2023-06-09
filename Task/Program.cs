@@ -23,3 +23,17 @@ for (int j = 0; j < size; j++)
         pos++;
     }
 }
+
+//Вывод данных
+
+void PrintArray(string[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.WriteLine(array[i] + " ");
+    }
+    Console.WriteLine();
+}
+
+Console.WriteLine("Вывод элементов массива: ");
+PrintArray(arrayFinal);
